@@ -1,0 +1,24 @@
+{
+  "name": "app-context-redis",
+  "version": "1.0.0",
+  "description": "Redis initializer for app-context",
+  "keywords": [
+    "app-context",
+    "redis"
+  ],
+  "homepage": "https://github.com/app-context/app-context-redis",
+  "bugs": {
+    "url": "https://github.com/app-context/app-context-redis/issues"
+  },
+  "license": "MIT",
+  "author": "Matt Insler <matt.insler@gmail.com>",
+  "main": "lib/app-context-redis",
+  "repository": "app-context/app-context-redis",
+  "dependencies": {
+    "@mattinsler/app-context-create-connections": "0.0.1",
+    "betturl": "0.2.3",
+    "bluebird": "2.9.34",
+    "hiredis": "0.4.1",
+    "redis": "1.0.0"
+  }
+}
