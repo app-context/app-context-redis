@@ -9,7 +9,7 @@ module.exports = function() {
     // create 2 connections and attach them as an object to APP.redis
     // this will create APP.redis.cache and APP.redis.sessions
     .use('redis', {
-      users: '$redis.cache',
+      cache: '$redis.cache',
       sessions: '$redis.sessions'
     })
 
